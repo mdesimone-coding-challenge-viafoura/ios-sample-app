@@ -10,7 +10,7 @@ class Comment{
     let uuid: UUID
     let content: String
     
-    init(uuid: UUID, content: String) {
+    init(uuid: UUID, content: String)  {
         self.uuid = uuid
         self.content = content
     }
